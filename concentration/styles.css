@@ -1,0 +1,19 @@
+.board {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+
+  }
+  
+  .box {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+    width:100px;
+    background-size: 100px;
+    background-position-x: center;
+    background-position-y: center;
+    margin: 5px;
+
+  }
