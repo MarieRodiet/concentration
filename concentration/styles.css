@@ -1,19 +1,22 @@
-.board {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-wrap: wrap;
+body {
+  position: relative;
+}
+#board {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 550px;
+  left: 50%;
+  transform: translateX(-50%);
+}
 
-  }
-  
-  .box {
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 150px;
-    width:100px;
-    background-size: 100px;
-    background-position-x: center;
-    background-position-y: center;
-    margin: 5px;
-
-  }
+.box {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 150px;
+  width: 100px;
+  background-size: 100px;
+  background-position-x: center;
+  background-position-y: center;
+  margin: 10px;
+}
